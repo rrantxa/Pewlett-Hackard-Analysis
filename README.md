@@ -7,10 +7,21 @@ The purpose of this analysis was to review a dataset for Pewlett-Hackard, a larg
 ### *What did we discover?*
 For this analysis, we used PostgreSQL as a database management tool. After reviewing all the information, we were able to collect four key insights:
 
-* There are more than 70,000 employees who qualify for retirement.
-* Many of the elegible retirees held multiple roles in the company through the years.  
-* The company title with the biggest amount of elegible retirees is "Senior Engineer" (25,916), followed by "Senior Staff" (24,926), "Engineer" (9,285), "Staff" (7,636), "Technique Leader" (3,603), "Assistant Engineer" (1,090) and "Manager" (2). 
-* The total amount of potential retirees who could participate in the mentorship program is 1,549.
+* There are more than 70,000 employees who qualify for retirement:
+
+![Image1](https://user-images.githubusercontent.com/113153777/202961665-cbd83048-7c4d-4ee6-817a-02930f001c45.png)
+
+* Many of the elegible retirees held multiple roles in the company through the years:
+
+![Image2](https://user-images.githubusercontent.com/113153777/202961354-c619a7f8-5158-4303-bb35-13440c9e4837.png)
+
+* The company title with the biggest amount of elegible retirees is "Senior Engineer" (25,916), followed by "Senior Staff" (24,926), "Engineer" (9,285), "Staff" (7,636), "Technique Leader" (3,603), "Assistant Engineer" (1,090) and "Manager" (2):
+
+![Image3](https://user-images.githubusercontent.com/113153777/202961423-881e96bc-23fe-4992-b8a9-caa6111e946a.png)
+
+* The total amount of potential retirees who could participate in the mentorship program is 1,549 (in the following image, we take one row off from the csv because of the header):
+
+![Image4](https://user-images.githubusercontent.com/113153777/202961824-39e5c557-fb0e-4ee5-8c88-0e6ec8800dfd.png)
 
 ## Summary
 Provide high-level responses to the following questions, then provide two additional queries or tables that may provide more insight into the upcoming "silver tsunami."
